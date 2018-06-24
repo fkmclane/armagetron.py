@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='armagetron.py',
-    version=0.0.1,
+    version='0.0.1',
     description='a scripting library for Armagetron Advanced',
     license='MIT',
     url='https://github.com/fkmclane/armagetron.py',
