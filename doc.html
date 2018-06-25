@@ -2,8 +2,11 @@
 <html>
 	<head>
 		<title>Scripting Library</title>
+
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
 		<link href="/res/common.css" rel="stylesheet" type="text/css"/>
+
 		<style>
 			.content table {
 				width: 100%;
@@ -21,11 +24,12 @@
 		</style>
 	</head>
 	<body>
-		<div class="header">
-			<img src="/res/aalogo.png" alt="" class="logo"/>
-			<span class="title">Scripting Library</span>
-		</div>
-		<div class="content">
+		<header>
+			<img src="/res/aalogo.png" alt=""/>
+			<span>Scripting Library</span>
+		</header>
+
+		<main>
 			To use the library, you must first use <code>import armagetron</code> at the beginning of your python script.  You must also call <code>armagetron.run()</code> after all of your handler initialization.  This function will then go into a loop and parse all of the ladderlog commands for you.  Examples are available at the bottom.
 			<br/>
 			<br/>
@@ -553,6 +557,6 @@ armagetron.add_handler("NEW_ROUND", change_map)
 
 armagetron.run()
 			</code></pre>
-		</div>
+		</main>
 	</body>
 </html>
